@@ -39,12 +39,19 @@ function App() {
         </Route>
 
         <Route path ="/">
-          <Home />
+          <CandyContainer />
         </Route>
 
       </Switch>
       </BrowserRouter>
+
     </div>
+
+    
+    
+
+
+    
   )
 }
 

@@ -1,8 +1,8 @@
 export default function CandyCard() {
     return (
         <div>
-            <p></p>
-            <p></p>
+            <p>name</p>
+            <p>description</p>
             {/* <CandyPage /> need clarification on this */}
         </div>
         
