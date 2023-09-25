@@ -8,7 +8,7 @@ import About from './About';
 import Form from './Form';
 import Contact from './Contact';
 import CandyPage from './CandyPage';
-import Home from './Home';
+import CandyContainer from './CandyContainer';
 
 import { BrowserRouter } from "react-router-dom";
 
