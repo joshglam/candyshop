@@ -10,8 +10,6 @@ import Contact from './Contact';
 import CandyPage from './CandyPage';
 import CandyContainer from './CandyContainer';
 
-import { BrowserRouter } from "react-router-dom";
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,31 +17,29 @@ function App() {
     <div>
       <Header />
       
-      <BrowserRouter>
       <Switch>
 
-        <Route path ="/about">
+        <Route path="/about">
           <About />
         </Route>
 
-        <Route path ="/form">
+        <Route path="/form">
           <Form />
         </Route>
 
-        <Route path ="/contact">
+        <Route path="/contact">
           <Contact />
         </Route>
 
-        <Route path ="/candy">
+        <Route path="/candy">
           <CandyPage />
         </Route>
 
-        <Route path ="/">
+        <Route exact path="/">
           <CandyContainer />
         </Route>
 
       </Switch>
-      </BrowserRouter>
 
     </div>
 
