@@ -12,4 +12,5 @@ export default function CandyContainer() {
             </div>
         </div>
     )
+    )
 }
