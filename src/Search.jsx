@@ -1,10 +1,10 @@
 import React from "react";
 
 function Search({setSearch}) {
-
   function handleChange(event){
     setSearch(event.target.value)
   }
+
   return (
     <div className="searchbar">
       <label htmlFor="search">Sweet Tooth Tracker : </label>
@@ -13,7 +13,9 @@ function Search({setSearch}) {
         id="search"
         placeholder="Search candy ..."
         onChange={handleChange}
+       
       />
+      
     </div>
   );
 }

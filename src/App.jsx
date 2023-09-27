@@ -31,7 +31,7 @@ function App() {
           <Contact />
         </Route>
 
-        <Route path="/candy">
+        <Route path="/candy/:id">
           <CandyPage />
         </Route>
 
