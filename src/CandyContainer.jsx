@@ -3,8 +3,8 @@ import Search from './Search';
 import CandyCard from "./CandyCard"
 import {useState, useEffect} from "react";
 
-function CandyContainer() {
-    const [candies, setCandies]= useState([])
+function CandyContainer({ candies, setCandies}) {
+
     const [ search, setSearch] = useState('')
 
     useEffect(()=> { 
@@ -13,7 +13,7 @@ function CandyContainer() {
         .then(data => setCandies(data))
 
     },[])
-
+console.log(candies)
 
     const filteredCandy = candies.filter((candy) => {
 

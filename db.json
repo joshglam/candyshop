@@ -1,76 +1,89 @@
 {
-    "candies": [
-      {
-        "id": 1,
-        "name": "Nerds",
-        "image": "https://m.media-amazon.com/images/I/71nBM1T+8QL.jpg",
-        "desc": "An American candy launched in 1983, under the brand name Willy Wonka Candy Company. Nerds flavors range from Strawberry, Grape, Orange, Watermelon, and Lemonade",
-        "price": 3.00
+  "candies": [
+    {
+      "id": 1,
+      "name": "Nerds",
+      "image": "https://m.media-amazon.com/images/I/71nBM1T+8QL.jpg",
+      "desc": "An American candy launched in 1983, under the brand name Willy Wonka Candy Company. Nerds flavors range from Strawberry, Grape, Orange, Watermelon, and Lemonade",
+      "price": 3
+    },
+    {
+      "id": 2,
+      "name": "Snickers",
+      "image": "https://www.snickers.in/sites/g/files/fnmzdf1526/files/migrate-product-files/o0ssfenc1ppyzm9ys6ow.png",
+      "desc": "A classic chocolate bar with peanuts, caramel, and nougat, produced by Mars, Inc.",
+      "price": 1.5
+    },
+    {
+      "id": 3,
+      "name": "Skittles",
+      "image": "https://www.skittles.com/sites/g/files/fnmzdf586/files/migrate-product-files/bam8afcev37jvz2mfpnk.png",
+      "desc": "Colorful fruit-flavored candies produced and marketed by the Wrigley Company (a subsidiary of Mars, Inc.).",
+      "price": 2
+    },
+    {
+      "id": 4,
+      "name": "Kit Kat",
+      "image": "https://images.heb.com/is/image/HEBGrocery/000112564-1",
+      "desc": "A popular chocolate-covered wafer bar created by Nestlé.",
+      "price": 1.25
+    },
+    {
+      "id": 5,
+      "name": "Twix",
+      "image": "https://www.twix.com/sites/g/files/fnmzdf236/files/migrate-product-files/pm57alsea7mspqhhgfuf.png",
+      "desc": "A chocolate bar made with a biscuit base, caramel, and milk chocolate coating, produced by Mars, Inc.",
+      "price": 1.75
+    },
+    {
+      "id": 6,
+      "name": "M&M's",
+      "image": "https://candyfunhouse.com/cdn/shop/products/Candyfunhouse_Mars_m_m_peanut_49g-Side-jpg-1.jpg?v=1679976798",
+      "desc": "Colorful button-shaped chocolates produced by Mars, Inc.",
+      "price": 1
+    },
+    {
+      "id": 7,
+      "name": "Reese's Peanut Butter Cups",
+      "image": "https://s7d2.scene7.com/is/image/hersheysassets/0_34000_00440_9_701_44000_136_Item_Front?fmt=png-alpha&hei=908",
+      "desc": "A popular peanut butter and chocolate confection produced by The Hershey Company.",
+      "price": 1.75
+    },
+    {
+      "id": 8,
+      "name": "ButterFinger",
+      "image": "https://cdn11.bigcommerce.com/s-4vjxpu0p6a/images/stencil/1000x800/products/10472/11525/93578__76904.1597425757.jpg?c=2",
+      "desc": "A crispety, crunchety, peanut buttery candy bar made by Ferrero.",
+      "price": 1.75
+    },
+    {
+      "id": 9,
+      "name": "Gummy Bears",
+      "image": "https://i5.walmartimages.com/seo/Haribo-Goldbears-Original-Gummy-Bears-Bag-14-Oz_8f3f0189-3a81-41ad-a23c-cfaa2087127f.9e1280c437a10ee5655f60673339deec.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "desc": "Chewy, fruit-flavored gummy candies loved by kids and adults alike.",
+      "price": 1.5
+    },
+    {
+      "id": 10,
+      "name": "Hershey's Chocolate Bar",
+      "image": "https://static01.nyt.com/images/2013/01/13/magazine/13wmt/13wmt-superJumbo-v3.jpg",
+      "desc": "A classic milk chocolate bar manufactured by The Hershey Company.",
+      "price": 2
+    },
+    {
+      "name": {
+        "name": "test"
       },
-      {
-        "id": 2,
-        "name": "Snickers",
-        "image": "https://www.snickers.in/sites/g/files/fnmzdf1526/files/migrate-product-files/o0ssfenc1ppyzm9ys6ow.png",
-        "desc": "A classic chocolate bar with peanuts, caramel, and nougat, produced by Mars, Inc.",
-        "price": 1.50
+      "image": {
+        "image": "test"
       },
-      {
-        "id": 3,
-        "name": "Skittles",
-        "image": "https://www.skittles.com/sites/g/files/fnmzdf586/files/migrate-product-files/bam8afcev37jvz2mfpnk.png",
-        "desc": "Colorful fruit-flavored candies produced and marketed by the Wrigley Company (a subsidiary of Mars, Inc.).",
-        "price": 2.00
+      "desc": {
+        "desc": "tset"
       },
-      {
-        "id": 4,
-        "name": "Kit Kat",
-        "image": "https://images.heb.com/is/image/HEBGrocery/000112564-1",
-        "desc": "A popular chocolate-covered wafer bar created by Nestlé.",
-        "price": 1.25
+      "price": {
+        "price": 1
       },
-      {
-        "id": 5,
-        "name": "Twix",
-        "image": "https://www.twix.com/sites/g/files/fnmzdf236/files/migrate-product-files/pm57alsea7mspqhhgfuf.png",
-        "desc": "A chocolate bar made with a biscuit base, caramel, and milk chocolate coating, produced by Mars, Inc.",
-        "price": 1.75
-      },
-      {
-        "id": 6,
-        "name": "M&M's",
-        "image": "https://candyfunhouse.com/cdn/shop/products/Candyfunhouse_Mars_m_m_peanut_49g-Side-jpg-1.jpg?v=1679976798",
-        "desc": "Colorful button-shaped chocolates produced by Mars, Inc.",
-        "price": 1.00
-      },
-      {
-        "id": 7,
-        "name": "Reese's Peanut Butter Cups",
-        "image": "https://s7d2.scene7.com/is/image/hersheysassets/0_34000_00440_9_701_44000_136_Item_Front?fmt=png-alpha&hei=908",
-        "desc": "A popular peanut butter and chocolate confection produced by The Hershey Company.",
-        "price": 1.75
-      },
-      {
-        "id": 8,
-        "name": "ButterFinger",
-        "image": "https://cdn11.bigcommerce.com/s-4vjxpu0p6a/images/stencil/1000x800/products/10472/11525/93578__76904.1597425757.jpg?c=2",
-        "desc": "A crispety, crunchety, peanut buttery candy bar made by Ferrero.",
-        "price": 1.75
-      },
-      {
-        "id": 9,
-        "name": "Gummy Bears",
-        "image": "https://i5.walmartimages.com/seo/Haribo-Goldbears-Original-Gummy-Bears-Bag-14-Oz_8f3f0189-3a81-41ad-a23c-cfaa2087127f.9e1280c437a10ee5655f60673339deec.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
-        "desc": "Chewy, fruit-flavored gummy candies loved by kids and adults alike.",
-        "price": 1.50
-      },
-      {
-        "id": 10,
-        "name": "Hershey's Chocolate Bar",
-        "image": "https://static01.nyt.com/images/2013/01/13/magazine/13wmt/13wmt-superJumbo-v3.jpg",
-        "desc": "A classic milk chocolate bar manufactured by The Hershey Company.",
-        "price": 2.00
-      }
-     
-    ]
-  }
-  
+      "id": 11
+    }
+  ]
+}

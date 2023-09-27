@@ -12,7 +12,7 @@ import CandyContainer from './CandyContainer';
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const [candies, setCandies]= useState([])
   return (
     <div>
       <Header />
@@ -24,7 +24,7 @@ function App() {
         </Route>
 
         <Route path="/form">
-          <Form />
+          <Form setCandies={setCandies}/>
         </Route>
 
         <Route path="/contact">
@@ -36,7 +36,7 @@ function App() {
         </Route>
 
         <Route exact path="/">
-          <CandyContainer />
+          <CandyContainer candies={candies} setCandies={setCandies} />
         </Route>
 
       </Switch>
