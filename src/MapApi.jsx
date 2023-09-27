@@ -4,8 +4,8 @@ import API_KEY from './env';
 
 
 const containerStyle = {
-  width: '400px',
-  height: '400px'
+  width: '900px',
+  height: '400px',
 };
 
 const center = {
