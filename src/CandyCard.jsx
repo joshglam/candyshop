@@ -11,17 +11,18 @@ function CandyCard({name, image, desc, price}) {
     };
 
     return (
-        <div className = "candy card">
-            <h3>{name}</h3>
-            <img src={image} alt={name} />
-            <div> {desc} </div>
+        <li className="cards__item">
+        <div className = "candy_card">
+            <h3 className = "candy_name">{name}</h3>
+            <img src={image} alt={name} className="candy_image"/>
+            <h3 className="candy_description"> {desc} </h3>
            <div>
             <button OnClick={handleClick}>Add</button>
             <div>{price}</div>
             
         </div>
         </div> 
-     
+     </li>
     );
 }
 
