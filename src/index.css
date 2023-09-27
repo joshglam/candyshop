@@ -3,18 +3,17 @@ body {
   font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0;
-  padding: 1rem;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 
 }
 
 .header {
   text-align: center;
   letter-spacing: 2px;
-  text-transform: uppercase
+  text-transform: uppercase;
 
 }
 
@@ -25,6 +24,9 @@ body {
   width: 1200px; /* Set the width of the vertical navbar */
   display: flex;
   border-bottom: 1px solid #555;
+  gap: 25px;
+  align-content: center;
+  justify-content: center;
   
 }
 
