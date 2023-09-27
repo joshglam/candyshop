@@ -4,37 +4,35 @@ import CandyCard from "./CandyCard"
 import {useState, useEffect} from "react";
 
 function CandyContainer() {
-    const [candy, setCandy]= useState([])
+    const [candies, setCandies]= useState([])
     const [ search, setSearch] = useState('')
 
     useEffect(()=> { 
-        fetch(" http://127.0.0.1:5174/")
+        fetch("http://localhost:3000/candies")
         .then(resp => resp.json())
-        .then(candies => setCandy(candies))
+        .then(data => setCandies(data))
 
     },[])
 
-    const filteredCandy = candy.filter(candy => {
-        return 
-            candy.name.toLowerCase().includes(
-            search.toLowerCase(),
-            candy.desc.toLowerCase().includes(
-                search.toLowerCase()
-            ))
-        
+
+    const filteredCandy = candies.filter((candy) => {
+
+    return (
+    candy.name.toLowerCase().includes(search.toLowerCase())||
+    candy.desc.toLowerCase().includes(search.toLowerCase())
+    )
+
     })
-
-
 
 
     return (
         <div>
-            <Search setSearch={setSearch} />
-            <div className="cards">
-                {candy.map(candy => {
+            {<Search setSearch={setSearch} />}
+            <ul className="cards">
+                {candies.map((candy) => {
                     return <CandyCard key={candy.id} {...candy} />
                 })}
-            </div>
+            </ul>
         </div>
     )
             }
