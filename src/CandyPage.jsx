@@ -8,6 +8,7 @@ import { useEffect, useState } from "react"
 
 function CandyPage() {
    const [pages, setPages]= useState(null);
+   const [isButton, setIsButton] = useState(true)
 
 
 const { id } = useParams()
@@ -23,7 +24,7 @@ useEffect(() => {
 if (!pages) {
     return <p>Loading...</p>
 }
-const { name, image, desc, price, } = pages;
+const { name, image, desc, price } = pages;
 
     return (
         <li className="cards__item">
@@ -35,7 +36,7 @@ const { name, image, desc, price, } = pages;
      
             <h3 className="candy_description"> {desc} </h3>
             <div>${price}</div>
-            {/* {addCandies ? (
+            {/* {isButton ? (
             <button 
             className="primary"
             onClick={handleClick}>Add</button>

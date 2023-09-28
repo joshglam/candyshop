@@ -1,19 +1,16 @@
 body {
   color: #999999;
-  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+} 
 
-
-}
 
 .header {
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-family: 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
 
 }
 
@@ -21,7 +18,7 @@ body {
   background-color: pink; /* Background color of the navbar */
   color: pink; /* Text color */
   list-style: none;
-  width: 1200px; /* Set the width of the vertical navbar */
+  width: 1200px; /* width of the vertical navbar */
   display: flex;
   border-bottom: 1px solid #555;
   gap: 25px;
@@ -44,36 +41,49 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #555; /* Background color on hover */
+  background-color: lightblue; /* Background color on hover */
+}
+.search {
+  color: darkmagenta;
+  font-family: 'Helvetica Neue';
+  text-transform: uppercase;
+  font-weight: bold
+
 }
 
+#search_bar {
+  font-family: 'Helvetica Neue';
+}
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0;
-  padding: 50;
+
 }
 
 .cards__item {
   display: flex;
-  padding: 1rem;
+  padding: 2.5rem;
   width: 25%;
 }
 
 .candy_card {
   background-color: whitesmoke;
-  border-radius: 0.25rem;
+  border-radius: 0.50rem;
   box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+
 }
 
 .candy_card img {
   width: 200px; /* Set the desired width */
   height: auto; /* Maintain the aspect ratio */
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  
 }
 
 

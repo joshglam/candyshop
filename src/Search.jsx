@@ -6,14 +6,13 @@ function Search({setSearch}) {
   }
 
   return (
-    <div className="searchbar">
-      <label htmlFor="search">Sweet Tooth Tracker : </label>
+    <div>
+      <label className="search" htmlFor="search">Sweet Tooth Tracker : </label>
       <input
         type="text"
-        id="search"
+        id="search_bar"
         placeholder="Search candy ..."
         onChange={handleChange}
-       
       />
       
     </div>
