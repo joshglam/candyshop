@@ -1,4 +1,4 @@
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { GoogleMap, useJsApiLoader,Marker } from '@react-google-maps/api';
 import { useCallback, useState } from 'react';
 import API_KEY from './env';
 
@@ -45,6 +45,9 @@ export default function MapApp() {
         onUnmount={onUnmount}
       >
         {/* Child components, such as markers, info windows, etc. */ }
+        <Marker
+      position={{ lat: 40.705272, lng: -74.013968 }}
+    />
         <></>
       </GoogleMap>
   ) : <></>
