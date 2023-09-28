@@ -10,6 +10,9 @@ function CandyPage() {
    const [pages, setPages]= useState(null);
    const [isButton, setIsButton] = useState(true)
 
+   function handleClick() {
+    setIsButton(prevVal => !prevVal);
+};
 
 const { id } = useParams()
 
@@ -27,22 +30,30 @@ if (!pages) {
 const { name, image, desc, price } = pages;
 
     return (
-        <li className="cards__item">
-        <div className = "candy_card">
-            <h3 className = "candy_name">{name}</h3>
+        <li className="candy_detail">
+        <div className = "detail_card">
+            <div className = "detail_name">{name}</div>
             <img src={image} 
             alt={name}
-            className="candy_image" />
+            className="detail_image" />
      
-            <h3 className="candy_description"> {desc} </h3>
-            <div>${price}</div>
-            {/* {isButton ? (
+            <div className="detail_description"> {desc} </div>
+            <div className= "detail_price"> ${price}</div>
+            {isButton ? (
             <button 
-            className="primary"
-            onClick={handleClick}>Add</button>
+            className="toggle_button add_button"
+            onClick={handleClick}
+            >
+                Add
+            </button>
             ) : (
-                <button onClick={handleClick}>Remove</button>
-            )} */}
+                <button 
+                className="toggle_button remove_button"
+                onClick={handleClick}
+                >
+                Remove
+                </button>
+            )}
         </div>
      </li>
     );
