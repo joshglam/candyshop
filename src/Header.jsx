@@ -2,24 +2,15 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
     return (
-        <header id="header">
+        <header className="header">
             <h1>The Candy Shop</h1>
-            <nav id="nav-bar">
-                <NavLink exact to="/" >
-                    Home
-                </NavLink>
-                <NavLink to="/about" >
-                    About
-                </NavLink>
-                <NavLink to="/contact" >
-                    Contact
-                </NavLink>
-                <NavLink to="/form" >
-                    Form
-                </NavLink>
-                
+            <ul className="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/form">Form</a></li>             
 
-            </nav>
+            </ul>
         </header>
     )
 }

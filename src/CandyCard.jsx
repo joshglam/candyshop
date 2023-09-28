@@ -1,12 +1,11 @@
-
-import CandyContainer from "./CandyContainer"
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
-function CandyCard({name, image, desc, price}) {
-    const [addCandies, setAddCandies]= useState(0);
+function CandyCard({id, name, image, desc, price}) {
+    const [addCandies, setAddCandies]= useState(true);
     
-    function handleClick(){
+    function handleClick() {
         setAddCandies(prevVal => !prevVal);
     };
 
@@ -14,14 +13,22 @@ function CandyCard({name, image, desc, price}) {
         <li className="cards__item">
         <div className = "candy_card">
             <h3 className = "candy_name">{name}</h3>
-            <img src={image} alt={name} className="candy_image"/>
+            <Link to={`/candy/${id}`}>
+            <img src={image} 
+            alt={name}
+            className="candy_image"
+            />
+            </Link>
             <h3 className="candy_description"> {desc} </h3>
-           <div>
-            <button OnClick={handleClick}>Add</button>
-            <div>{price}</div>
-            
+            <div>${price}</div>
+            {addCandies ? (
+            <button 
+            className="primary"
+            onClick={handleClick}>Add</button>
+            ) : (
+                <button onClick={handleClick}>Remove</button>
+            )}
         </div>
-        </div> 
      </li>
     );
 }
