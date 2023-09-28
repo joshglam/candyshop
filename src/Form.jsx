@@ -55,7 +55,7 @@ export default function Form({ setCandies }) {
         <div>
             <form action="">
                 <label>Name:
-                    <input onChange={handleName} type="text" name="name"></input>
+                    <input autoComplete="true" onChange={handleName} type="text" name="name"></input>
                 </label>
                 <label>Image Url:
                     <input onChange={handleImage} type="text" name="image"></input>
