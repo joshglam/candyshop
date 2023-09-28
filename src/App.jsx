@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -11,8 +11,17 @@ import CandyPage from './CandyPage';
 import CandyContainer from './CandyContainer';
 
 function App() {
-  const [count, setCount] = useState(0)
+
   const [candies, setCandies]= useState([])
+
+  useEffect(()=> { 
+    fetch("http://localhost:3000/candies")
+    .then(resp => resp.json())
+    .then(data => setCandies(data))
+
+},[])
+
+
   return (
     <div>
       <Header />
@@ -24,19 +33,19 @@ function App() {
         </Route>
 
         <Route path="/form">
-          <Form setCandies={setCandies}/>
+          <Form setCandies={setCandies} />
         </Route>
 
         <Route path="/contact">
           <Contact />
         </Route>
 
-        <Route path="/candy">
+        <Route path="/candy/:id">
           <CandyPage />
         </Route>
 
         <Route exact path="/">
-          <CandyContainer candies={candies} setCandies={setCandies} />
+        <CandyContainer candies={candies} setCandies={setCandies} />
         </Route>
 
       </Switch>

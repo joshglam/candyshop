@@ -1,17 +1,6 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
 #contact-us {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
 }

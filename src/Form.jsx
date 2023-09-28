@@ -26,10 +26,13 @@ export default function Form({ setCandies }) {
     function handleSubmit(e) {
         e.preventDefault()
         const newCandy = {
-            "name": {name},
-            "image": {image},
-            "desc": {desc},
-            "price": {price}
+
+            "name": name,
+            "image": image,
+            "desc": desc,
+            "price": price
+
+
           }
 
           console.log(newCandy)
@@ -41,10 +44,11 @@ export default function Form({ setCandies }) {
             body: JSON.stringify(newCandy)
           })
           .then(resp => resp.json())
-          .then(data => setCandies((prev) =>[...prev, data]))
+          .then(data => setCandies((prev) =>[data, ...prev]))
     }
 
-    
+
+
 
 
 
