@@ -26,7 +26,6 @@ export default function Form({ setCandies }) {
     function handleSubmit(e) {
         e.preventDefault()
         const newCandy = {
-
             "name": name,
             "image": image,
             "desc": desc,
