@@ -29,7 +29,7 @@ console.log(candies)
         <div>
             {<Search setSearch={setSearch} />}
             <ul className="cards">
-                {candies.map((candy) => {
+                {filteredCandy.map((candy) => {
                     return <CandyCard key={candy.id} {...candy} />
                 })}
             </ul>
