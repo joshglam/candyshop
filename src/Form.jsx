@@ -57,16 +57,16 @@ export default function Form({ setCandies }) {
                 <label>Name:
                     <input onChange={handleName} type="text" name="name"></input>
                 </label>
-                <label>Image Url
+                <label>Image Url:
                     <input onChange={handleImage} type="text" name="image"></input>
                 </label>
-                <label>Description
+                <label>Description:
                     <input onChange={handleDesc} type="text" name="desc"></input>
                 </label>
-                <label>Price
+                <label>Price:
                     <input onChange={handlePrice} type="number" name="price"></input>
                 </label>
-                <button onClick={handleSubmit} type="submit">Submit</button>
+                <button id="submit" onClick={handleSubmit} type="submit">Submit</button>
             </form>
         </div>
     )

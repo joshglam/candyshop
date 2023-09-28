@@ -1,6 +1,4 @@
-/* *  {
-  border: solid 1px red
-} */
+
 
 body {
   color: #999999;
@@ -35,7 +33,9 @@ body {
   background-color: pink; /* Background color of the navbar */
   color: pink; /* Text color */
   list-style: none;
+
   width: 100%; /* width of the vertical navbar */
+
   display: flex;
   border-bottom: 1px solid #555;
   gap: 25px;
