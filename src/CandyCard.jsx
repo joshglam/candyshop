@@ -20,7 +20,7 @@ function CandyCard({id, name, image, desc, price}) {
             />
             </Link>
             <h3 className="candy_description"> {desc} </h3>
-            <div>${price}</div>
+            <div className= "detail_price">${price}</div>
             {addCandies ? (
             <button 
             className="primary"
