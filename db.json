@@ -69,7 +69,13 @@
       "image": "https://static01.nyt.com/images/2013/01/13/magazine/13wmt/13wmt-superJumbo-v3.jpg",
       "desc": "A classic milk chocolate bar manufactured by The Hershey Company.",
       "price": 2
+    },
+    {
+      "name": "te",
+      "image": "te",
+      "desc": "te",
+      "price": 1,
+      "id": 11
     }
-    
   ]
 }

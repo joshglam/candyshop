@@ -1,6 +1,40 @@
 
 #contact-us {
-  display: flex;
-  grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  padding: 10px;
+  /* border: solid 1px grey; */
+}
+
+#address {
+  background-color: pink;
+  display: grid;
+  justify-items: center;
+  color: black;
+  border: solid 1px grey;
+  margin: 5px;
+}
+
+#map {
+  border: solid 1px grey;
+
+}
+
+form {
+  background-color: pink;
+  color: black;
+  margin-top: 10px;
+  padding: 100px;
+  display: grid;
+  grid-template-rows: 1 fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: end;
+  gap: 10px;
+  width: 30%;
+  margin: auto;
+}
+
+#submit {
+  width: 100%;
 }
