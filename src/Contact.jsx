@@ -1,4 +1,4 @@
-import MapApi from "./MapApi"
+//import MapApi from "./MapApi"
 
 
 export default function Contact() {
@@ -12,7 +12,7 @@ export default function Contact() {
                 <p>Email: 50cent@candyshop.com</p>
 
             </div>
-            <div><MapApi /></div>
+            {/* <div><MapApi /></div> */}
         </div>
       );
 }
