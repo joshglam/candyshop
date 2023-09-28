@@ -3,6 +3,7 @@ import Search from './Search';
 import CandyCard from "./CandyCard"
 import {useState, useEffect} from "react";
 
+
 function CandyContainer({candies, setCandies}) {
     const [search, setSearch] = useState("") 
 

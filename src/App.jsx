@@ -11,6 +11,7 @@ import CandyPage from './CandyPage';
 import CandyContainer from './CandyContainer';
 
 function App() {
+
   const [candies, setCandies]= useState([])
 
   useEffect(()=> { 
@@ -19,6 +20,7 @@ function App() {
     .then(data => setCandies(data))
 
 },[])
+
 
   return (
     <div>

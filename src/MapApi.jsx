@@ -3,10 +3,11 @@
 // import API_KEY from './env';
 
 
-// const containerStyle = {
-//   width: '900px',
-//   height: '400px'
-// };
+const containerStyle = {
+  width: '900px',
+  height: '400px',
+};
+
 
 // const center = {
 //   lat: 40.705272,
