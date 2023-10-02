@@ -10,6 +10,7 @@ import Contact from './Contact';
 import CandyPage from './CandyPage';
 import CandyContainer from './CandyContainer';
 
+
 function App() {
 
   const [candies, setCandies]= useState([])
