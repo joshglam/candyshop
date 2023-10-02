@@ -4,15 +4,20 @@ import CandyContainer from './CandyContainer';
 import Search from './Search';
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react"
+import {BsHeartFill} from 'react-icons/bs'
+
 
 
 function CandyPage() {
    const [pages, setPages]= useState(null);
    const [isButton, setIsButton] = useState(true)
+   const [count, setCount] = useState(0);
 
    function handleClick() {
     setIsButton(prevVal => !prevVal);
 };
+ 
+
 
 const { id } = useParams()
 
@@ -29,15 +34,18 @@ if (!pages) {
 }
 const { name, image, desc, price } = pages;
 
+
     return (
         <li className="candy_detail">
         <div className = "detail_card">
             <div className = "detail_name">{name}</div>
-            <img src={image} 
-            alt={name}
-            className="detail_image" />
-     
+            <img src={image} alt={name}className="detail_image" />
             <div className="detail_description"> {desc} </div>
+            <div className='favorite_text'>Favorite: {count} </div>
+            <button onClick={() => setCount(count + 1)}>
+               <BsHeartFill/>
+               </button> 
+            
             <div className= "detail_price"> ${price}</div>
             {isButton ? (
             <button 

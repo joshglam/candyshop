@@ -4,71 +4,73 @@
       "id": 1,
       "name": "Nerds",
       "image": "https://m.media-amazon.com/images/I/71nBM1T+8QL.jpg",
-      "desc": "An American candy launched in 1983, under the brand name Willy Wonka Candy Company. Nerds flavors range from Strawberry, Grape, Orange, Watermelon, and Lemonade",
-      "price": 3
+      "desc": " Julies Favorite Candy! Nerds flavors range from Strawberry, Grape, Orange, Watermelon, and Lemonade",
+      "price": 3.25
     },
     {
       "id": 2,
       "name": "Snickers",
       "image": "https://www.snickers.in/sites/g/files/fnmzdf1526/files/migrate-product-files/o0ssfenc1ppyzm9ys6ow.png",
-      "desc": "A classic chocolate bar with peanuts, caramel, and nougat, produced by Mars, Inc.",
-      "price": 1.5
+      "desc": "A classic chocolate bar with peanuts, caramel, and nougat, produced by Mars, Inc. Since 2021. Snickers has made $423.74 million in sales",
+      "price": 1.55
     },
     {
       "id": 3,
       "name": "Skittles",
       "image": "https://www.skittles.com/sites/g/files/fnmzdf586/files/migrate-product-files/bam8afcev37jvz2mfpnk.png",
-      "desc": "Colorful fruit-flavored candies produced and marketed by the Wrigley Company (a subsidiary of Mars, Inc.).",
-      "price": 2
+      "desc": "Colorful fruit-flavored candies produced and marketed by the Wrigley Company (a subsidiary of Mars, Inc.)",
+      "price": 1.22
     },
     {
       "id": 4,
       "name": "Kit Kat",
       "image": "https://images.heb.com/is/image/HEBGrocery/000112564-1",
-      "desc": "A popular chocolate-covered wafer bar created by Nestlé.",
+      "desc": "The 'Gimmie A Break' ad jingle first aired in 1986, Melissa loves this one!",
       "price": 1.25
     },
     {
       "id": 5,
       "name": "Twix",
       "image": "https://www.twix.com/sites/g/files/fnmzdf236/files/migrate-product-files/pm57alsea7mspqhhgfuf.png",
-      "desc": "A chocolate bar made with a biscuit base, caramel, and milk chocolate coating, produced by Mars, Inc.",
+      "desc": "A chocolate bar made with a biscuit base, caramel, and milk chocolate coating. The word 'Twix' is actually a mashup of 'twin bix,' 'bix' being British shorthand for biscuits",
       "price": 1.75
     },
     {
       "id": 6,
       "name": "M&M's",
       "image": "https://candyfunhouse.com/cdn/shop/products/Candyfunhouse_Mars_m_m_peanut_49g-Side-jpg-1.jpg?v=1679976798",
-      "desc": "Colorful button-shaped chocolates produced by Mars, Inc.",
-      "price": 1
+      "desc": "M & M's stands for Mars and Murrie. Colorful button-shaped chocolates produced by Mars, Inc. The first factory was in New Jersey",
+      "price": 2.25
     },
     {
       "id": 7,
       "name": "Reese's Peanut Butter Cups",
       "image": "https://s7d2.scene7.com/is/image/hersheysassets/0_34000_00440_9_701_44000_136_Item_Front?fmt=png-alpha&hei=908",
-      "desc": "A popular peanut butter and chocolate confection produced by The Hershey Company.",
+      "desc": "A popular peanut butter and chocolate confection produced by The Hershey Company. By popular we mean #1 selling candy in the United States",
       "price": 1.75
     },
     {
       "id": 8,
       "name": "ButterFinger",
-      "image": "https://cdn11.bigcommerce.com/s-4vjxpu0p6a/images/stencil/1000x800/products/10472/11525/93578__76904.1597425757.jpg?c=2",
-      "desc": "A crispety, crunchety, peanut buttery candy bar made by Ferrero.",
+      "image": "https://assets.syndigo.cloud/cdn/46c1dc31-3f06-483f-998f-868331134edd/fileType_jpg;size_600x600/46c1dc31-3f06-483f-998f-868331134edd",
+      "desc": "A crispety, crunchety, peanut buttery candy bar made by Ferrero. Not to mention Josh's favorite chocolate bar",
       "price": 1.75
     },
     {
       "id": 9,
       "name": "Gummy Bears",
       "image": "https://i5.walmartimages.com/seo/Haribo-Goldbears-Original-Gummy-Bears-Bag-14-Oz_8f3f0189-3a81-41ad-a23c-cfaa2087127f.9e1280c437a10ee5655f60673339deec.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
-      "desc": "Chewy, fruit-flavored gummy candies loved by kids and adults alike.",
-      "price": 1.5
+      "desc": "Originally called 'Dancing Bears', first invented in Germany in the 1920s. Chewy and fruity these gummies didn't make it to America until the 1980s",
+      "price": 1.55
     },
     {
       "id": 10,
       "name": "Hershey's Chocolate Bar",
       "image": "https://static01.nyt.com/images/2013/01/13/magazine/13wmt/13wmt-superJumbo-v3.jpg",
-      "desc": "A classic milk chocolate bar manufactured by The Hershey Company.",
-      "price": 2
+      "desc": "Said to be soldiers favorite chocolate bar during WW2, they could maintain their shape for over an hour in 120 degree heat",
+      "price": 2.25
+
+    
     }
   ]
 }
