@@ -6,8 +6,8 @@ import {useState, useEffect} from "react";
 
 
 function CandyContainer({candies, setCandies}) {
-    const [search, setSearch] = useState("") 
-
+    const [search, setSearch] = useState("")
+    
     const filteredCandy = candies.filter((candy) => {
     return candy.name.toLowerCase().includes(
         search.toLowerCase()) || candy.desc.toLowerCase().includes(
